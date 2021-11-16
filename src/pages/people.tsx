@@ -4,7 +4,7 @@ import OpenGraphMeta from "../components/meta/OpenGraphMeta";
 import TwitterCardMeta from "../components/meta/TwitterCardMeta";
 import { SocialList } from "../components/SocialList";
 
-export default function Index() {
+export default function People() {
   return (
     <Layout>
       <BasicMeta url={"/"} />
@@ -13,7 +13,7 @@ export default function Index() {
       <div className="container">
         <div>
           <h1>
-            Alternative Imaginaries
+            People
           </h1>
         </div>
       </div>
